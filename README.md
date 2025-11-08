@@ -48,8 +48,7 @@ Conclusion:
 - TF-IDF outperformed CountVectorizer for most models.
 - RandomOverSampler improved balance across sentiment classes.
 - CNN achieved the best overall performance (Macro-F1 = 0.8277).
-- Linear SVC and Logistic Regression provided strong, efficient baselines.
-- 
+
 
 
 
