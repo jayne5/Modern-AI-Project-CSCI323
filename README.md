@@ -16,7 +16,7 @@ README.md                  # This file
 
 Dataset
 Dataset used: Twitter Sentiment Dataset (Negative, Neutral, Positive).
-Date set link:
+Date set link : https://www.kaggle.com/datasets/saurabhshahane/twitter-sentiment-dataset
 
 Environment Setup (Google Colab):
 1. Open the notebook in Google Colab.
