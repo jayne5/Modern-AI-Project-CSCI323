@@ -10,9 +10,8 @@ We compare these models using both CountVectorizer and TF-IDF Vectorizer, along 
 
 Repository Structure:
 Modern-AI-Project-CSCI323/  
-Grp28.ipynb                # Google Colab notebook with full code
-outputs/                   # Folder for screenshots of key results
-README.md                  # This file
+- Grp28.ipynb                # Google Colab notebook with full code
+- README.md                  # This file
 
 Dataset
 Dataset used: Twitter Sentiment Dataset (Negative, Neutral, Positive).
