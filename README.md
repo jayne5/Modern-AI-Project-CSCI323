@@ -10,7 +10,7 @@ We compare these models using both CountVectorizer and TF-IDF Vectorizer, along 
 
 Repository Structure:
 Modern-AI-Project-CSCI323/  
-- Grp28.ipynb                # Google Colab notebook with full code
+- Grp28.ipynb                # Google Colab notebook with full code and output
 - README.md                  # This file
 
 Dataset
