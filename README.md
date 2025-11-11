@@ -16,6 +16,9 @@ Modern-AI-Project-CSCI323/
 Dataset
 Dataset used: Twitter Sentiment Dataset (Negative, Neutral, Positive).
 Date set link : https://www.kaggle.com/datasets/saurabhshahane/twitter-sentiment-dataset
+- Total entries: ~160k tweets
+- Labels: -1 (Negative), 0 (Neutral), 1 (Positive)
+- Dataset cleaned to remove duplicates, symbols, and short texts (<5 chars)
 
 Environment Setup (Google Colab):
 1. Open the notebook in Google Colab.
