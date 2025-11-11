@@ -30,7 +30,33 @@ Environment Setup (Google Colab):
     - NumPy & Pandas
 3.Run all cells sequentially.
 
-Model Implemented:
+Code Workflow:
+
+Data Cleaning & Preparation:
+- Removed duplicates, special symbols, and short tweets.
+- Added a custom stopword list (including political terms and slang like “rt”, “plz”).
+- Applied lemmatization for consistent word representation.
+
+Feature Extraction:
+- CountVectorizer: Counts how many times each word appears.
+- TF-IDF Vectorizer: Assigns more weight to unique or meaningful words and downweights common ones.
+- Tokenizer + Padding (for CNN): Converts tweets to sequences while preserving word order.
+
+Data Balancing:
+- Used RandomOverSampler and RandomUnderSampler to balance positive, neutral, and negative tweet counts.
+
+Model Training & Tuning:
+- MultinomialNB, Logistic Regression, and LinearSVC trained using TF-IDF.
+- CNN model built using Keras Sequential API with:
+        -  Embedding Layer -> Conv1D -> GlobalMaxPooling -> Dropout > Dense
+- Performed GridSearchCV / RandomizedSearchCV for hyperparameter tuning and best configuration selection.
+- Evaluated using Stratified K-Fold Cross Validation to prevent data leakage.
+
+Evaluation & Visualization:
+- Generated Confusion Matrices, ROC Curves, Macro-F1 Scores, and Misclassified Example Analysis.
+- Analyzed confidence levels of CNN predictions to understand uncertainty in ambiguous tweets.
+
+RESULT:
 -------------------------------------------------------------------------------
 | Model               | Feature Extraction | Sampling             | Macro-F1   |
 | ------------------- | ------------------ | -------------------- | ---------- |
