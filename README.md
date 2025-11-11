@@ -31,7 +31,10 @@ Environment Setup (Google Colab):
     - scikeras
     - matplotlib
     - NumPy & Pandas
-3.Run all cells sequentially.
+3.Download NLTK stopwords (needed for text preprocessing):
+ import nltk
+ nltk.download('stopwords')
+4.Run all cells sequentially.
 
 Code Workflow:
 
